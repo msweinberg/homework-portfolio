@@ -1,0 +1,97 @@
+#topbar {
+	background-image: "images/fdog.JPG";
+	height: 150px;
+}
+
+body {
+	font-family: serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: #fbfaf7;
+	background-color: #3a52d6;
+	margin-top: 30px;
+}
+
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16;
+}
+
+ul {
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+ul#menu {
+	width: auto;
+	text-align: center;
+	list-style-type: none;
+}
+
+li#menu {
+	padding: 10 20 10 20;
+	text-align: center;
+	display: inline-block;
+	font-size: 18;
+}
+
+div#menu {
+	background-color: black;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+a {
+	color: grey;
+}
+
+div#fernando{
+	background-image: url(../images/fdog.JPG);
+	height: 500px;
+	background-size: cover;
+}
+
+div.content{
+	border: 2px solid black;
+	padding: 100px;
+	font-size: 16;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-width: 500px;
+}
+
+img {
+   display:inline-block;
+   margin:0 auto;
+   max-height: 200px;
+
+}
+
+img.portfoliopics {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#profile {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+div#about {
+	float: right;
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
