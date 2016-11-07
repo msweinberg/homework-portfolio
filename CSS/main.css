@@ -63,16 +63,17 @@ div#fernando{
 
 div.content{
 	border: 2px solid black;
-	padding: 100px;
+	padding: 50px;
 	font-size: 16;
 	max-width: 1000px;
 	margin: 0 auto;
 	min-width: 500px;
+	min-height: 250px;
 }
 
 img {
    display:inline-block;
-   margin:0 auto;
+/*   margin:0 auto;*/
    max-height: 200px;
 
 }
@@ -83,15 +84,22 @@ img.portfoliopics {
 	margin-right: auto;
 }
 
-img#profile {
+#photo {
 	display: block;
-	margin-left: 0;
-	margin-right: auto;
+	float:left;
 }
 
+/*img#profile {
+	display: block;
+	margin-left: 0;
+/*	margin-right: auto;
+}*/
+
 div#about {
-	float: right;
+	float: left;
 	display: block;
 	margin-left: auto;
 	margin-right: 0;
+	width:300px;
+	padding-left: 20px;
 }
